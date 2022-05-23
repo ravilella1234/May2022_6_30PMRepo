@@ -28,7 +28,11 @@ public class ExceptionDemo
 			catch (Exception e) 
 			{
 				e.printStackTrace();
-			}			
+			}	
+			finally 
+			{
+				System.out.println("iam finally Block...");
+			}
 		}
 
 	}
